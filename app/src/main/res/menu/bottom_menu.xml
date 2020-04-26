@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/multiplication"
+        android:checked="true"
+        android:icon="@drawable/ic_multiplecation"
+        android:title="Perkalian"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_addition"
+        android:checked="true"
+        android:icon="@drawable/ic_add"
+        android:title="tambah"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_substraction"
+        android:checked="true"
+        android:icon="@drawable/ic_indeterminate"
+        android:title="pengurangan"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_devider"
+        android:checked="true"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="pembagian"
+        app:showAsAction="ifRoom" />
+
+</menu>
